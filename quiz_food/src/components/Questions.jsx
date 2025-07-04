@@ -5,7 +5,10 @@ export const questions = [
     { text: "Pizza froide direct sortie du frigo", personality: "JunkFood" },
     { text: "Carottes + houmous", personality: "Healthy" },
     { text: "Un truc douteux d’un resto inconnu", personality: "Aventurier" },
+    { text: "Je mâche une capsule de café parce que j’ai confondu avec un chocolat.", personality: "Troll" },
     { text: "Tartine beurre-sel", personality: "Classique" },
+    { text: "Un fruit", personality: "Healthy" },
+    { text: "Je lèche la condensation sur une canette vide… c’est pas glorieux.", personality: "Troll" },
     ],
 },
 {
@@ -15,6 +18,10 @@ export const questions = [
     { text: "Smoothie vert + graines", personality: "Healthy" },
     { text: "Camembert + café", personality: "Aventurier" },
     { text: "Baguette + beurre", personality: "Classique" },
+    { text: "oeuf + bacon", personality: "JunkFood" },
+    { text: "Je mange les restes de raclette d’hier sans honte", personality: "Welsh" },
+    { text: "Rien", personality: "Classique"}
+
     ],
 },
 {
@@ -24,6 +31,7 @@ export const questions = [
     { text: "Salade bio avec tofu", personality: "Healthy" },
     { text: "Un plat imprononçable", personality: "Aventurier" },
     { text: "Steak-frites", personality: "Classique" },
+    { text: "Ce que le voisin prend. Je juge et je copie.", personality: "Troll" }
     ],
 },
 {
@@ -33,6 +41,9 @@ export const questions = [
     { text: "Parfait, digestion optimale !", personality: "Healthy" },
     { text: "J’ai déjà mangé pire !", personality: "Aventurier" },
     { text: "Je veux juste du pain, ok ?", personality: "Classique" },
+    { text: "C'est pour ma grosse", personality: "JunkFood" },
+    { text: "J’essaie de m’enfuir discrètement en rampant sous la table", personality: "Troll" },
+    { text: "L'air est payant aussi ? ", personality: "Troll" }
     ],
 },
 {
@@ -41,7 +52,9 @@ export const questions = [
     { text: "Pour tester les fast-foods locaux", personality: "JunkFood" },
     { text: "Pour goûter des fruits inconnus", personality: "Healthy" },
     { text: "Pour manger des insectes grillés", personality: "Aventurier" },
+    { text: "pour la bière", personality: "JunkFood" },
     { text: "Pour goûter le pain de chaque pays", personality: "Classique" },
+
     ],
 },
 {
@@ -51,6 +64,7 @@ export const questions = [
     { text: "Amandes grillées", personality: "Healthy" },
     { text: "Chips de poulpe coréen", personality: "Aventurier" },
     { text: "Pop corn", personality: "Classique" },
+    { text: "Ce que je trouve sous le canapé", personality: "Troll" }
     ],
 },
 {
@@ -60,6 +74,7 @@ export const questions = [
     { text: "Bol d’açaï", personality: "Healthy" },
     { text: "Plat éthiopien inconnu", personality: "Aventurier" },
     { text: "Omelette + croissant + café", personality: "Classique" },
+    { text: "Je ne me souviens pas. Je me suis réveillé au brunch.", personality: "Troll" }
     ],
 },
 {
@@ -69,6 +84,8 @@ export const questions = [
     { text: "Une petite touche dans mes plats sains", personality: "Healthy" },
     { text: "Une expérience culturelle", personality: "Aventurier" },
     { text: "Camembert, emmental, point.", personality: "Classique" },
+    { text: "Un substitut affectif", personality: "Welsh" },
+    { text: "Un truc qui pu", personality: "Troll" }
     ],
 },
 {
@@ -78,6 +95,9 @@ export const questions = [
     { text: "Les graines et laits végétaux", personality: "Healthy" },
     { text: "Les épices aux noms obscurs", personality: "Aventurier" },
     { text: "Le rayon charcuterie", personality: "Classique" },
+    { text: "Les promos", personality: "Classique"},
+    { text: "Les bonbons", personality: "JunkFood" },
+    { text: "Le rayon jouet", personality: "Troll" },
     ],
 },
 {
@@ -87,6 +107,7 @@ export const questions = [
     { text: "Les avocats", personality: "Healthy" },
     { text: "Le piment", personality: "Aventurier" },
     { text: "Le pain", personality: "Classique" },
+    { text: "Mon ordinateur", personality: "Troll" }
     ],
 },
 {
@@ -96,6 +117,8 @@ export const questions = [
     { text: "Un Buddha Bowl hyper coloré", personality: "Healthy" },
     { text: "Un curry super épicé", personality: "Aventurier" },
     { text: "Un gratin de pâtes", personality: "Classique" },
+    { text: "Je ne cuisine pas", personality: "JunkFood" },
+    { text: "Chacun pour soi", personality: "Troll" },
     ],
 },
 {
@@ -105,6 +128,7 @@ export const questions = [
     { text: "Un vrai plat équilibré", personality: "Healthy" },
     { text: "Sympa avec du vinaigre noir coréen", personality: "Aventurier" },
     { text: "Les carottes râpées, c’est la base", personality: "Classique" },
+    { text: "Des légumes ? Je croyais que c’était de la déco.", personality: "Troll" }
     ],
 },
 {
@@ -114,6 +138,8 @@ export const questions = [
     { text: "Un bouillon detox", personality: "Healthy" },
     { text: "Un curry volcanique", personality: "Aventurier" },
     { text: "Une baguette et un doliprane", personality: "Classique" },
+    { text: "Le fromage fondu et un plaid", personality: "Welsh" },
+    { text: "Je ne picole pas", personality: "Healthy" }
     ],
 },
 {
@@ -123,6 +149,7 @@ export const questions = [
     { text: "Je dose chaque jour", personality: "Healthy" },
     { text: "J’ai un tiroir entier d’épices", personality: "Aventurier" },
     { text: "Pas besoin d’épices avec du cheddar", personality: "Welsh" },
+    { text: "Les hemoroides", personality: "Troll" },
     ],
 },
 {
@@ -131,7 +158,8 @@ export const questions = [
     { text: "Brownie fondant", personality: "JunkFood" },
     { text: "Mousse au cacao cru", personality: "Healthy" },
     { text: "Glace au sésame noir", personality: "Aventurier" },
-    { text: "Tarte aux pommes", personality: "Classique" },
+    { text: "Tarte aux pommes bien fourrée ", personality: "Troll" },
+    { text: "Clafoutis", personality: "Classique" },
     ],
 },
 {
@@ -141,6 +169,7 @@ export const questions = [
     { text: "Des fruits surgelés et légumes vapeur", personality: "Healthy" },
     { text: "Des raviolis maison viet", personality: "Aventurier" },
     { text: "Des restes et du pain", personality: "Classique" },
+    { text: "Des bébés", personality: "Troll" },
     ],
 },
 {
@@ -150,6 +179,7 @@ export const questions = [
     { text: "Tu demandes la composition", personality: "Healthy" },
     { text: "Tu finis l’assiette direct", personality: "Aventurier" },
     { text: "Tu cherches s’il y a du fromage dedans", personality: "Welsh" },
+    { text: "Tu prends une photo et le publies : #YOLOFood", personality: "Aventurier" }
     ],
 },
 {
@@ -160,6 +190,8 @@ export const questions = [
     { text: "Épicé", personality: "Aventurier" },
     { text: "Maison", personality: "Classique" },
     { text: "Burger", personality: "JunkFood" },
+    { text: "À volonté", personality: "JunkFood" },
+    { text: "Chat", personality: "Troll" }
     ],
 },
 {
@@ -169,13 +201,18 @@ export const questions = [
     { text: "Un plat industriel micro-ondable", personality: "Healthy" },
     { text: "Rien de nouveau à goûter", personality: "Aventurier" },
     { text: "Rater des pâtes", personality: "Classique" },
+    { text: "Qu’on me dise 'c’est du faux fromage'", personality: "Welsh" },
+    { text: "La levure dans les crêpes", personality: "Classique" }
     ],
 },
 ];
 
-function Question({ question, onAnswer }) {
+function Question({ question, onAnswer, currentQuestionIndex, totalQuestions }) {
 return (
     <div className="question-card">
+    <p>
+        Question {currentQuestionIndex + 1} / {totalQuestions}
+    </p>
     <h2>{question.text}</h2>
     {question.choices.map((choice, index) => (
         <button

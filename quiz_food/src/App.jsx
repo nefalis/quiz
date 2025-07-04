@@ -33,7 +33,12 @@ function App() {
   return (
     <div className="container">
       {!showResult ? (
-        <Question question={questions[current]} onAnswer={handleAnswer} />
+        <Question
+          question={questions[current]}
+          currentQuestionIndex={current}
+          totalQuestions={questions.length}
+          onAnswer={handleAnswer}
+        />
       ) : (
         <Result personality={getResult()} />
       )}

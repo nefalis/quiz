@@ -4,6 +4,7 @@ Healthy: "Tu lis les étiquettes des yaourts comme d’autres lisent des romans.
 Aventurier: "Tu manges des trucs dont personne ne connaît le nom.",
 Classique: "Pourquoi changer ce qui marche ?",
 Welsh: "Tu vis pour le fromage fondu. Ton cœur est fait de cheddar, ta foi en la bière est inébranlable. Le pain détrempé est ta religion. Le cholestérol te salue bien !",
+Troll: "Toi tu cherches la drouille !"
 };
 
 function Result({ personality }) {
