@@ -8,7 +8,7 @@ export const questions = [
     { text: "Je mâche une capsule de café parce que j’ai confondu avec un chocolat.", personality: "Troll" },
     { text: "Tartine beurre-sel", personality: "Classique" },
     { text: "Un fruit", personality: "Healthy" },
-    { text: "Je lèche la condensation sur une canette vide… c’est pas glorieux.", personality: "Troll" },
+    { text: "Je lèche la condensation sur une canette… c’est pas glorieux.", personality: "Troll" },
     ],
 },
 {
