@@ -13,14 +13,14 @@ export const questions = [
     choices: [
     { text: "Un croissant au Nutella", personality: "JunkFood" },
     { text: "Smoothie vert + graines", personality: "Healthy" },
-    { text: "Soupe asiatique", personality: "Aventurier" },
+    { text: "Camembert + café", personality: "Aventurier" },
     { text: "Baguette + beurre", personality: "Classique" },
     ],
 },
 {
     text: "Ton plat au resto ?",
     choices: [
-    { text: "Burger XXL", personality: "JunkFood" },
+    { text: "Burger", personality: "JunkFood" },
     { text: "Salade bio avec tofu", personality: "Healthy" },
     { text: "Un plat imprononçable", personality: "Aventurier" },
     { text: "Steak-frites", personality: "Classique" },
@@ -50,7 +50,7 @@ export const questions = [
     { text: "Nachos au cheddar fondu", personality: "JunkFood" },
     { text: "Amandes grillées", personality: "Healthy" },
     { text: "Chips de poulpe coréen", personality: "Aventurier" },
-    { text: "Tucs, évidemment", personality: "Classique" },
+    { text: "Pop corn", personality: "Classique" },
     ],
 },
 {
@@ -59,7 +59,7 @@ export const questions = [
     { text: "Oeufs & bacon & tout le gras", personality: "JunkFood" },
     { text: "Bol d’açaï", personality: "Healthy" },
     { text: "Plat éthiopien inconnu", personality: "Aventurier" },
-    { text: "Omelette + café", personality: "Classique" },
+    { text: "Omelette + croissant + café", personality: "Classique" },
     ],
 },
 {
@@ -110,7 +110,7 @@ export const questions = [
 {
     text: "Ton remède anti-gueule de bois ?",
     choices: [
-    { text: "Un kebab bien gras", personality: "JunkFood" },
+    { text: "Un mcdo bien gras", personality: "JunkFood" },
     { text: "Un bouillon detox", personality: "Healthy" },
     { text: "Un curry volcanique", personality: "Aventurier" },
     { text: "Une baguette et un doliprane", personality: "Classique" },
@@ -159,15 +159,7 @@ export const questions = [
     { text: "Bio", personality: "Healthy" },
     { text: "Épicé", personality: "Aventurier" },
     { text: "Maison", personality: "Classique" },
-    ],
-},
-{
-    text: "Une salade, pour toi, c’est :",
-    choices: [
-    { text: "Une excuse pour manger des lardons", personality: "JunkFood" },
-    { text: "Un repas équilibré", personality: "Healthy" },
-    { text: "Un plat si c’est mariné & pimenté", personality: "Aventurier" },
-    { text: "Une entrée avant la vraie bouffe", personality: "Classique" },
+    { text: "Burger", personality: "JunkFood" },
     ],
 },
 {
